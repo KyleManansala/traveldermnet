@@ -202,7 +202,8 @@ a:hover {
 --------------------------------------------------------------*/
 h3.card-title,
 h3.cart-title {
-   font-size: 1.5em;
+   font-size: 1.2em;
+   display: absolute;
 }
 
 /* - Section width
@@ -667,7 +668,7 @@ h3.cart-title {
       margin-top: 210px;
   }
   #travelderm-banner .image-holder {
-      margin-top: -390px;
+      margin-top: -550px;
       opacity: 0.3;
   }
   #travelderm-banner .swiper-arrow {

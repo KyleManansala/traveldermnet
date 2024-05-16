@@ -612,6 +612,7 @@ h3.cart-title {
 #header-nav .offcanvas.show {
     z-index: 9999;
     background-color: var(--light-blue-color);
+    
 }
 #header-nav .offcanvas-end {
     width: 500px;
@@ -622,6 +623,7 @@ h3.cart-title {
 .offcanvas.show .offcanvas-body .navbar-nav {
     align-items: unset!important;
     padding-left: 20px;
+    
 }
 
 /*------------ Top User Icons -----------*/
@@ -664,12 +666,19 @@ h3.cart-title {
 }
 
 @media only screen and (max-width: 767px) {
-  #travelderm-banner .banner-content {
+  #travelderm-banner .banner-content  {
       margin-top: 210px;
   }
+  #travelderm-banner .banner-content h1 {
+    color: black
+}
+#travelderm-banner .banner-content a {
+
+}
   #travelderm-banner .image-holder {
       margin-top: -550px;
-      opacity: 0.3;
+      opacity: 0.6;
+      margin-left: -5px;
   }
   #travelderm-banner .swiper-arrow {
       top: 400px;

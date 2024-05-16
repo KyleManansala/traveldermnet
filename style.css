@@ -666,24 +666,23 @@ h3.cart-title {
 }
 
 @media only screen and (max-width: 767px) {
-  #travelderm-banner .banner-content  {
-      margin-top: 210px;
+  #travelderm-banner .banner-content {
+    margin-top: 210px;
   }
   #travelderm-banner .banner-content h1 {
-    color: black
-}
-#travelderm-banner .banner-content a {
-
-}
+    color: black; 
+    font-weight: bold; 
+  }
   #travelderm-banner .image-holder {
-      margin-top: -550px;
-      opacity: 0.6;
-      margin-left: -5px;
+    margin-top: -550px;
+    opacity: 0.6; 
+    margin-left: -5px;
   }
   #travelderm-banner .swiper-arrow {
-      top: 400px;
+    top: 400px;
   }
 }
+
 
 /* 3. Icon Box - Company Services
 /*----------------------------------------------*/
